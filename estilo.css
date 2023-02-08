@@ -1,4 +1,26 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: rosybrown;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     
+}
+
+.container1 h1{
+    font-size: 28px;
+    color: white;
+}
+
+.container1 p{
+    font-size: 15px;
+    color: white;
+}
+
+.container2 h2{
+    font-size: 15px;
+    background-color: blueviolet;
+    border-radius: 15px 15px;
+    color: white; 
+    text-align: center;
 }
