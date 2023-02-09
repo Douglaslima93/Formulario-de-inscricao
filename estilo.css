@@ -1,14 +1,22 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: rosybrown;
+    background-color: hsl(0, 100%, 74%);
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    background-image: url('bg-intro-desktop.png');
+
     
 }
 
+.container1{
+    margin: 200px 20px; 
+}
+    
+
+
 .container1 h1{
-    font-size: 28px;
+    font-size: 30px;
     color: white;
 }
 
@@ -19,8 +27,63 @@ body {
 
 .container2 h2{
     font-size: 15px;
-    background-color: blueviolet;
-    border-radius: 15px 15px;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 15px;
     color: white; 
     text-align: center;
+    padding: 20px;
+    box-shadow: 0px 5px 5px 0px rgb(143, 140, 140);
+}
+
+.container2 p{
+    font-size: 15px;
+    color: black;
+    padding: 15px;
+    text-align: left;
+    border: 1px solid slategray;
+    padding: 10px; 
+    margin: 20px;
+    border-radius: 5px;
+    
+
+    
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px 0px rgb(143, 140, 140);
+    
+}
+
+.container4{
+    width: 40%;
+    margin-top: 40px;
+    margin-right: 20px;
+    
+    
+}
+
+.container3 span{
+    font-size: 15px;
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+    padding: 10px;
+    text-align: center;
+    border: 1px solid slategray;
+    margin: 20px;
+    border-radius: 5px;
+    
+}
+
+.container3, .rodape{
+    font-size: 8px;
+    text-align: center;
+
+}
+
+strong{
+    color: red;
 }
