@@ -35,7 +35,7 @@ body {
     box-shadow: 0px 5px 5px 0px rgb(143, 140, 140);
 }
 
-.container2 p{
+.container2 input{
     font-size: 15px;
     color: black;
     padding: 15px;
@@ -84,4 +84,12 @@ body {
 
 strong{
     color: red;
+}
+
+#botao{
+    cursor: pointer;
+}
+
+input{
+    border: none;
 }

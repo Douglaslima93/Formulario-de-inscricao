@@ -23,27 +23,25 @@
 
     
     <div id="usuario" class="container3">
-        <p>Name <input type="text" id="usuario"></p>
-        <p>Last Name <input type="text" id="usuario"></p>
-        <p>Email Address <input type="email" id="usuario"></p>
-        <p>Passaword <input type="password" id="usuario"></p>
-        <span>CLAIM YOUR FREE TRIAL</span>
+        <input type="text" id="usuario" placeholder="Name">
+        <input type="text" id="usuario" placeholder="Last Name">
+        <input type="email" id="usuario" placeholder="Email Address">
+        <input type="password" id="usuario" placeholder="Passaword">
+        <span id="botao">CLAIM YOUR FREE TRIAL</span>
         <ul id="rodape" class="rodape">By clicking the button, you are agreeing to our <strong>Terms and Services</strong> </ul>
     </div>
 </div>
 </div>
 <script>
    
-    var c = window.document.getElementsByName("span")
+    var c = window.document.getElementById("botao")
+    console.log(c)
     c.addEventListener('click', clicar)
 
     function clicar() {
-    c.innerText = 'Obrigado por fazer parte da nossa equipe'   
-    c.style.background = 'green'    
+    c.innerText = 'THANKS!'   
+    c.style.background = 'hsl(154, 59%, 51%);'    
     
-        
-        
-        
     }
 
 
